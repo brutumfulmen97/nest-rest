@@ -60,3 +60,6 @@ mongo_data
 
 # pnpm store
 .pnpm-store
+
+# logs
+logs

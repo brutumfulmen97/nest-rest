@@ -17,6 +17,7 @@ services:
       - "3001:3001"
     environment:
       - MONGODB_URI=mongodb://mongodb:27017/nest
+    restart: always
     depends_on:
       - mongodb
     volumes:
@@ -24,7 +25,6 @@ services:
       - /usr/src/app/node_modules
     networks:
       - app-network
-    restart: always
     command: pnpm dev
 
 networks:

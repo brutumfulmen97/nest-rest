@@ -12,10 +12,6 @@ export class UsersService {
   }
 
   async getUser(id: string) {
-    if (!id.match(/^[0-9a-fA-F]{24}$/)) {
-      throw new NotFoundException('Invalid user ID');
-    }
-
     const user = await this.userModel.findById(id);
 
     if (!user) {

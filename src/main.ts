@@ -1,12 +1,17 @@
-import { NestFactory } from '@nestjs/core';
+import { NestFactory, HttpAdapterHost } from '@nestjs/core';
 import { NestExpressApplication } from '@nestjs/platform-express';
 import { join } from 'path';
 import { AppModule } from './app.module';
+import { AllExceptionsFilter } from './all-exceptions.filter';
 
 import * as nunjucks from 'nunjucks';
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
+
+  const { httpAdapter } = app.get(HttpAdapterHost);
+  app.useGlobalFilters(new AllExceptionsFilter(httpAdapter));
+
   const express = app.getHttpAdapter().getInstance();
 
   const nunjucksOptions: nunjucks.ConfigureOptions = {
