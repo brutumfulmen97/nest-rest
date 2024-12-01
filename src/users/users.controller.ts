@@ -7,6 +7,7 @@ import {
   Patch,
   Delete,
   Query,
+  Render,
 } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { User } from './schemas/user.schema';
@@ -16,12 +17,15 @@ export class UsersController {
   constructor(private usersService: UsersService) {}
 
   @Get()
-  getUsers(
+  @Render('users')
+  async getUsers(
     @Query('sort') sort: 'asc' | 'desc' = 'desc',
     @Query('limit') limit: number = 10,
     @Query('role') role: 'ADMIN' | 'USER' = 'USER',
   ) {
-    return this.usersService.getUsers(sort, limit, role);
+    const users = await this.usersService.getUsers(sort, limit, role);
+
+    return { users };
   }
 
   @Get('admins')
