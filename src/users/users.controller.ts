@@ -8,9 +8,10 @@ import {
   Delete,
   Query,
   Render,
+  ValidationPipe,
 } from '@nestjs/common';
 import { UsersService } from './users.service';
-import { User } from './schemas/user.schema';
+import { User } from '../schemas/user.schema';
 
 @Controller('users')
 export class UsersController {
@@ -21,11 +22,10 @@ export class UsersController {
   async getUsers(
     @Query('sort') sort: 'asc' | 'desc' = 'desc',
     @Query('limit') limit: number = 10,
-    @Query('role') role: 'ADMIN' | 'USER' = 'USER',
   ) {
-    const users = await this.usersService.getUsers(sort, limit, role);
+    const users = await this.usersService.getUsers(sort, limit);
 
-    return { users };
+    return { title: 'Users', users };
   }
 
   @Get('admins')
@@ -39,12 +39,15 @@ export class UsersController {
   }
 
   @Post()
-  createUser(@Body() body: User) {
+  createUser(@Body(ValidationPipe) body: User) {
     return this.usersService.createUser(body);
   }
 
   @Patch(':id')
-  updateUser(@Param('id') id: string, @Body() body: Partial<User>) {
+  updateUser(
+    @Param('id') id: string,
+    @Body(ValidationPipe) body: Partial<User>,
+  ) {
     return this.usersService.updateUser(id, body);
   }
 
