@@ -18,9 +18,9 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "watch:tailwind": "tailwindcss -i ./src/styles/input.css -o ./public/styles/output.css --watch",
+    "watch:tailwind": "npx tailwindcss -i ./public/tailwind.css -o ./public/style.css --watch --minify --content 'views/**/*.{hbs,njk,html}'",
     "browser-sync": "browser-sync start --proxy 'localhost:3000' --port 3001 --files 'public/**/*.css, views/**/*.njk, src/**/*.ts' --no-open",
-    "dev": "sh -c 'pnpm watch:tailwind & pnpm browser-sync & pnpm start:dev'"
+    "dev": "npm install -g concurrently && concurrently \"pnpm watch:tailwind\" \"pnpm browser-sync\" \"pnpm start:dev\""
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
