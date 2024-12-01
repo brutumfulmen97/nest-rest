@@ -10,7 +10,6 @@ import { ScheduleModule } from '@nestjs/schedule';
 import { TasksService } from './tasks/tasks.service';
 import { ConfigModule } from '@nestjs/config';
 import { ProjectsModule } from './projects/projects.module';
-import { CacheModule } from '@nestjs/cache-manager';
 
 @Module({
   imports: [
@@ -26,7 +25,6 @@ import { CacheModule } from '@nestjs/cache-manager';
         limit: 1,
       },
     ]),
-    CacheModule.register(),
   ],
   controllers: [AppController],
   providers: [

@@ -4,10 +4,6 @@ import { MyLoggerService } from 'src/my-logger/my-logger.service';
 import { ProjectsService } from 'src/projects/projects.service';
 import { ConfigService } from '@nestjs/config';
 
-const GITLAB_REST_API = 'https://gitlab.studiopresent.com/api/v4';
-const ENDPOINT =
-  '/groups/pierre-core/issues?sort=asc&order_by=relative_position&pagination=keyset&per_page=100&state=all&page=1';
-
 @Injectable()
 export class TasksService {
   private readonly logger = new MyLoggerService(TasksService.name);
@@ -19,7 +15,10 @@ export class TasksService {
   @Cron(CronExpression.EVERY_10_MINUTES)
   async handleCron() {
     try {
-      const response = await fetch(`${GITLAB_REST_API}${ENDPOINT}`, {
+      const gitlabRestApi = this.configService.get('GITLAB_REST_API');
+      const endpoint = this.configService.get('ENDPOINT');
+
+      const response = await fetch(`${gitlabRestApi}${endpoint}`, {
         headers: {
           'PRIVATE-TOKEN': this.configService.get('PRIVATE_TOKEN'),
         },
