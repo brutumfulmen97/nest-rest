@@ -22,7 +22,6 @@ services:
       - mongodb
     volumes:
       - .:/usr/src/app
-      - /usr/src/app/node_modules
     networks:
       - app-network
     command: pnpm dev
