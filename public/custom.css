@@ -1,0 +1,6 @@
+.highcharts-tooltip > span {
+  background: rgb(255 255 255);
+  border: 1px solid silver;
+  border-radius: 3px;
+  padding: 8px;
+}

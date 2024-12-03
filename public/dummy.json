@@ -1,0 +1,1256 @@
+{
+  "milestones": [
+    {
+      "archived": false,
+      "name": "Pierre WEB",
+      "id": "78-288",
+      "$type": "Project",
+      "unique_id": "pierre_web",
+      "tasks": {
+        "13": {
+          "id": "pierreweb559_vlatko_92136776",
+          "title": "PIERREWEB-559 Contact page FE ...",
+          "full_title": "PIERREWEB-559 Contact page FE upgrade",
+          "project_id": "pierre_web",
+          "project_name": "Pierre WEB",
+          "start_date": 1733162919530,
+          "end_date": 1733189933000,
+          "parent": "pierre_web",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 1,
+          "estimate": 9000000,
+          "human_estimate": "2h 30m",
+          "time_spent": 9000000,
+          "tracked_time": "2h 30m",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/PIERREWEB-559",
+          "state": "Need Fix",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": false
+        },
+        "14": {
+          "id": "pierreweb565_vlatko_92136841",
+          "title": "PIERREWEB-565 Fix before going...",
+          "full_title": "PIERREWEB-565 Fix before going live",
+          "project_id": "pierre_web",
+          "project_name": "Pierre WEB",
+          "start_date": 1733211317304,
+          "end_date": 1733292331000,
+          "parent": "pierre_web",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 1,
+          "estimate": 18000000,
+          "human_estimate": "5h",
+          "time_spent": 27000000,
+          "tracked_time": "7h 30m",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/PIERREWEB-565",
+          "state": "Open",
+          "issue_completed": true,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": false
+        }
+      }
+    },
+    {
+      "archived": false,
+      "name": "ProCredit Bank SR",
+      "id": "78-286",
+      "$type": "Project",
+      "unique_id": "procredit_bank_sr",
+      "tasks": [
+        {
+          "id": "pcbsr905_vlatko_92134971",
+          "title": "PCBSR-905 Boje buttona-i menij...",
+          "full_title": "PCBSR-905 Boje buttona-i menija",
+          "project_id": "procredit_bank_sr",
+          "project_name": "ProCredit Bank SR",
+          "start_date": 1733300634000,
+          "end_date": 1733343834000,
+          "parent": "procredit_bank_sr",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 14400000,
+          "human_estimate": "4h",
+          "time_spent": 0,
+          "tracked_time": "",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/PCBSR-905",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": true
+        },
+        {
+          "id": "pcbsr918_vlatko_92136415",
+          "title": "PCBSR-918 OOR pregled fix",
+          "full_title": "PCBSR-918 OOR pregled fix",
+          "project_id": "procredit_bank_sr",
+          "project_name": "ProCredit Bank SR",
+          "start_date": 1733746141000,
+          "end_date": 1733751555000,
+          "parent": "procredit_bank_sr",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 1800000,
+          "human_estimate": "30m",
+          "time_spent": 0,
+          "tracked_time": "",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/PCBSR-918",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": true
+        }
+      ]
+    },
+    {
+      "archived": false,
+      "name": "BMS",
+      "id": "78-467",
+      "$type": "Project",
+      "unique_id": "bms",
+      "tasks": {
+        "31": {
+          "id": "bms112_vlatko_92134368",
+          "title": "BMS-112 Login/Register page st...",
+          "full_title": "BMS-112 Login/Register page styling",
+          "project_id": "bms",
+          "project_name": "BMS",
+          "start_date": 1733239636000,
+          "end_date": 1733250436000,
+          "parent": "bms",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 1,
+          "estimate": 7200000,
+          "human_estimate": "2h",
+          "time_spent": 3600000,
+          "tracked_time": "1h",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/BMS-112",
+          "state": "Open",
+          "issue_completed": false,
+          "split": true,
+          "timelog_null": false,
+          "timelog_not_found": false
+        },
+        "32": {
+          "id": "bms112_vlatko_92134368",
+          "title": "BMS-112 Login/Register page st...",
+          "full_title": "BMS-112 Login/Register page styling",
+          "project_id": "bms",
+          "project_name": "BMS",
+          "start_date": 1733343834000,
+          "end_date": 1733354634000,
+          "parent": "bms",
+          "dependency": "bms112_vlatko_92134368",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 7200000,
+          "human_estimate": "2h",
+          "time_spent": 3600000,
+          "tracked_time": "1h",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/BMS-112",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": false
+        },
+        "33": {
+          "id": "bms90_vlatko_92134346",
+          "title": "BMS-90 Adjust the Typography (...",
+          "full_title": "BMS-90 Adjust the Typography (module) page based on the design (page)",
+          "project_id": "bms",
+          "project_name": "BMS",
+          "start_date": 1733354634000,
+          "end_date": 1733397834000,
+          "parent": "bms",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 14400000,
+          "human_estimate": "4h",
+          "time_spent": 0,
+          "tracked_time": "",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/BMS-90",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": true
+        },
+        "34": {
+          "id": "bms105_vlatko_92134361",
+          "title": "BMS-105 Filters in Views styli...",
+          "full_title": "BMS-105 Filters in Views styling",
+          "project_id": "bms",
+          "project_name": "BMS",
+          "start_date": 1733397834000,
+          "end_date": 1733441034000,
+          "parent": "bms",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 14400000,
+          "human_estimate": "4h",
+          "time_spent": 0,
+          "tracked_time": "",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/BMS-105",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": true
+        },
+        "35": {
+          "id": "bms106_vlatko_92134362",
+          "title": "BMS-106 Facets in Categories s...",
+          "full_title": "BMS-106 Facets in Categories styling",
+          "project_id": "bms",
+          "project_name": "BMS",
+          "start_date": 1733441034000,
+          "end_date": 1733484234000,
+          "parent": "bms",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 14400000,
+          "human_estimate": "4h",
+          "time_spent": 0,
+          "tracked_time": "",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/BMS-106",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": true
+        },
+        "36": {
+          "id": "bms110_vlatko_92134366",
+          "title": "BMS-110 Email tempaltes stylin...",
+          "full_title": "BMS-110 Email tempaltes styling",
+          "project_id": "bms",
+          "project_name": "BMS",
+          "start_date": 1733484234000,
+          "end_date": 1733743434000,
+          "parent": "bms",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 28800000,
+          "human_estimate": "1d",
+          "time_spent": 0,
+          "tracked_time": "",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/BMS-110",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": true
+        }
+      }
+    },
+    {
+      "archived": false,
+      "name": "Reel",
+      "id": "78-380",
+      "$type": "Project",
+      "unique_id": "reel",
+      "tasks": {
+        "4": {
+          "id": "reel256_vlatko_92136806",
+          "title": "REEL-256 D-express-FrontEnd",
+          "full_title": "REEL-256 D-express-FrontEnd",
+          "project_id": "reel",
+          "project_name": "Reel",
+          "start_date": 1733189933000,
+          "end_date": 1733200733000,
+          "parent": "reel",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 3600000,
+          "human_estimate": "1h",
+          "time_spent": 0,
+          "tracked_time": "",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/REEL-256",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": true
+        }
+      }
+    },
+    {
+      "archived": false,
+      "name": "Capriolo.com",
+      "id": "78-197",
+      "$type": "Project",
+      "unique_id": "capriolocom",
+      "tasks": [
+        {
+          "id": "capriolo476_vlatko_92136820",
+          "title": "CAPRIOLO-476 Stilizovanje meni...",
+          "full_title": "CAPRIOLO-476 Stilizovanje menija",
+          "project_id": "capriolocom",
+          "project_name": "Capriolo.com",
+          "start_date": 1733200733000,
+          "end_date": 1733206147000,
+          "parent": "capriolocom",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 1800000,
+          "human_estimate": "30m",
+          "time_spent": 0,
+          "tracked_time": "",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/CAPRIOLO-476",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": true
+        }
+      ]
+    },
+    {
+      "archived": false,
+      "name": "Elter",
+      "id": "78-314",
+      "$type": "Project",
+      "unique_id": "elter",
+      "tasks": {
+        "1": {
+          "id": "elter1386_vlatko_92136804",
+          "title": "ELTER-1386 \"Kövess Minket\" up...",
+          "full_title": "ELTER-1386 \"Kövess Minket\" upgrade Footer",
+          "project_id": "elter",
+          "project_name": "Elter",
+          "start_date": 1733162902167,
+          "end_date": 1733168316000,
+          "parent": "elter",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 1,
+          "estimate": 2700000,
+          "human_estimate": "45m",
+          "time_spent": 1800000,
+          "tracked_time": "30m",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/ELTER-1386",
+          "state": "Open",
+          "issue_completed": false,
+          "split": true,
+          "timelog_null": false,
+          "timelog_not_found": false
+        },
+        "2": {
+          "id": "elter1386_vlatko_92136804",
+          "title": "ELTER-1386 \"Kövess Minket\" up...",
+          "full_title": "ELTER-1386 \"Kövess Minket\" upgrade Footer",
+          "project_id": "elter",
+          "project_name": "Elter",
+          "start_date": 1733751555000,
+          "end_date": 1733754262000,
+          "parent": "elter",
+          "dependency": "elter1386_vlatko_92136804",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 2700000,
+          "human_estimate": "45m",
+          "time_spent": 1800000,
+          "tracked_time": "30m",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/ELTER-1386",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": false
+        }
+      }
+    },
+    {
+      "archived": false,
+      "name": "Heidelberg Akademie (HAdW)",
+      "id": "78-412",
+      "$type": "Project",
+      "unique_id": "heidelberg_akademie_hadw",
+      "tasks": {
+        "2": {
+          "id": "hadw39_vlatko_92133940",
+          "title": "HAdW-39 Copyright - Images",
+          "full_title": "HAdW-39 Copyright - Images",
+          "project_id": "heidelberg_akademie_hadw",
+          "project_name": "Heidelberg Akademie (HAdW)",
+          "start_date": 1733247728800,
+          "end_date": 1733250436000,
+          "parent": "heidelberg_akademie_hadw",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 1,
+          "estimate": 3600000,
+          "human_estimate": "1h",
+          "time_spent": 900000,
+          "tracked_time": "15m",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/HAdW-39",
+          "state": "Open",
+          "issue_completed": false,
+          "split": true,
+          "timelog_null": false,
+          "timelog_not_found": false
+        },
+        "3": {
+          "id": "hadw39_vlatko_92133940",
+          "title": "HAdW-39 Copyright - Images",
+          "full_title": "HAdW-39 Copyright - Images",
+          "project_id": "heidelberg_akademie_hadw",
+          "project_name": "Heidelberg Akademie (HAdW)",
+          "start_date": 1733292331000,
+          "end_date": 1733300452000,
+          "parent": "heidelberg_akademie_hadw",
+          "dependency": "hadw39_vlatko_92133940",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 3600000,
+          "human_estimate": "1h",
+          "time_spent": 900000,
+          "tracked_time": "15m",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/HAdW-39",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": false
+        },
+        "4": {
+          "id": "hadw55_vlatko_92136419",
+          "title": "HAdW-55 Missing icons on CK ed...",
+          "full_title": "HAdW-55 Missing icons on CK editor",
+          "project_id": "heidelberg_akademie_hadw",
+          "project_name": "Heidelberg Akademie (HAdW)",
+          "start_date": 1733300452000,
+          "end_date": 1733300634000,
+          "parent": "heidelberg_akademie_hadw",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 60000,
+          "human_estimate": "1m",
+          "time_spent": 0,
+          "tracked_time": "",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/HAdW-55",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": true
+        }
+      }
+    },
+    {
+      "archived": false,
+      "name": "Su-Prospect",
+      "id": "78-69",
+      "$type": "Project",
+      "unique_id": "suprospect",
+      "tasks": [
+        {
+          "id": "suprospect407_vlatko_92136050",
+          "title": "SUPROSPECT-407 Ako zgrada nema...",
+          "full_title": "SUPROSPECT-407 Ako zgrada nema ni jedan Label, ne treba da ima OFF label",
+          "project_id": "suprospect",
+          "project_name": "Su-Prospect",
+          "start_date": 1733743434000,
+          "end_date": 1733746141000,
+          "parent": "suprospect",
+          "dependency": "",
+          "assignee": {
+            "name": "Vlatko Perčić",
+            "login": "vlatko",
+            "avatarUrl": "/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?s=48&etag==MjctNDQ2NjA%3D",
+            "email": "vlatko@studiopresent.com",
+            "$type": "User"
+          },
+          "percentage_spent": 0,
+          "estimate": 900000,
+          "human_estimate": "15m",
+          "time_spent": 0,
+          "tracked_time": "",
+          "task_web_url": "https://studiopresent.myjetbrains.com/youtrack/issue/SUPROSPECT-407",
+          "state": "Open",
+          "issue_completed": false,
+          "split": false,
+          "timelog_null": false,
+          "timelog_not_found": true
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "type": "user",
+      "id": "82d978b1-7675-4274-9da6-6f6b84b19b61",
+      "name": "Andor Koza",
+      "login": "andor",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/82d978b1-7675-4274-9da6-6f6b84b19b61?etag=MjctODE%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "andor@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "857ec41f-0068-48d6-b08e-9425330ee296",
+      "name": "Ćuković Miloš",
+      "login": "milos",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/857ec41f-0068-48d6-b08e-9425330ee296?etag=MjctMjQ5Nw%3D%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "milos@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "dcd71bc8-0533-4b3b-86d2-6e839748de93",
+      "name": "Bojan Milanković",
+      "login": "bojan",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/dcd71bc8-0533-4b3b-86d2-6e839748de93?etag=MjctMjU2NjU%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "bojan@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "db368415-e200-4405-87b2-f60112ce66dc",
+      "name": "Aleksandar Boroš Gyevi",
+      "login": "aco",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/db368415-e200-4405-87b2-f60112ce66dc?etag=MjctNzc%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "aco@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "8ed3187f-50e8-4f2d-9f89-218eb1d65130",
+      "name": "David Malatenski",
+      "login": "david",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/8ed3187f-50e8-4f2d-9f89-218eb1d65130?etag=MjctNDQ0NA%3D%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "david@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "5fc7c576-2ee8-4aa8-8527-dd04e0aaa1fd",
+      "name": "Goran Nikolovski",
+      "login": "goran",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/5fc7c576-2ee8-4aa8-8527-dd04e0aaa1fd?etag=MjctNDM3NDc%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "goran@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "e28e20d9-c23b-48a3-aa85-01b4b1fe997c",
+      "name": "Róbert Szell",
+      "login": "robert",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/e28e20d9-c23b-48a3-aa85-01b4b1fe997c?etag=MjctMTc3NjY%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "robert@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "c63ed130-0862-4a91-a0db-4bd759de9182",
+      "name": "Árpád Rózsa",
+      "login": "arpad",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/c63ed130-0862-4a91-a0db-4bd759de9182?etag=MjctODEzMQ%3D%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "arpad@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "daf3563a-49d8-4ba2-aa74-6b107053a471",
+      "name": "Davor Horvacki",
+      "login": "davor",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/daf3563a-49d8-4ba2-aa74-6b107053a471?etag=MjctNDEwMDk%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "davor@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "748f2d7f-afaf-4239-9723-634917c8b95b",
+      "name": "Biljana Nimčević",
+      "login": "biljana",
+      "banned": true,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/748f2d7f-afaf-4239-9723-634917c8b95b?etag=MjctMzAwNjM%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "biljana@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "0555fb9c-77b0-4513-99d3-ecfcfe91bb50",
+      "name": "Krisztina Márki",
+      "login": "kristina",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/0555fb9c-77b0-4513-99d3-ecfcfe91bb50?etag=MjctMTAwMg%3D%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "kristina@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "37231928-f160-4142-b55e-8953b31a3e5e",
+      "name": "Norbert Göcő",
+      "login": "norbert.studiopresent",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/37231928-f160-4142-b55e-8953b31a3e5e?etag=MjctNDM3NTU%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "norbert@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "dc1bbff4-2be2-468c-be37-44cfec0acf5f",
+      "name": "REX",
+      "login": "rex",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/dc1bbff4-2be2-468c-be37-44cfec0acf5f?etag=MjctNTA1Nw%3D%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "rex@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "df9f86e4-2cdb-4f99-a3c9-a132cef39496",
+      "name": "Zoran Popić",
+      "login": "zoran",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/df9f86e4-2cdb-4f99-a3c9-a132cef39496?etag=MjctNTk2NQ%3D%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "zoran@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "63907deb-b68c-40bf-839d-5026247c7ad1",
+      "name": "Nađa Popović",
+      "login": "nadja",
+      "banned": true,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/63907deb-b68c-40bf-839d-5026247c7ad1?etag=MjctNjIzMg%3D%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "nadja@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "5045221f-4227-457e-ad64-8563aba60c3b",
+      "name": "Viktor Nađ",
+      "login": "viktor",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/5045221f-4227-457e-ad64-8563aba60c3b?etag=MjctNjQ5Nw%3D%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "viktor@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "5935bfff-405b-4aab-af91-70b914a7aac2",
+      "name": "Karlo Rumenjaković",
+      "login": "karlo",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/5935bfff-405b-4aab-af91-70b914a7aac2?etag=MjctODg3Mg%3D%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "karlo@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "a23d293b-5a09-4e2b-b76c-2fc33621baa2",
+      "name": "Karolina Fero",
+      "login": "karolina",
+      "banned": false,
+      "avatar": {
+        "type": "defaultavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/a23d293b-5a09-4e2b-b76c-2fc33621baa2"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "karolina@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "e7de5192-dd1e-4214-a583-76ff774e8887",
+      "name": "Conan Đorđević",
+      "login": "conan",
+      "banned": false,
+      "avatar": {
+        "type": "defaultavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/e7de5192-dd1e-4214-a583-76ff774e8887"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "conan@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "e0057225-aff5-470b-acc0-e9cb617190c3",
+      "name": "Stela Babić",
+      "login": "stela",
+      "banned": false,
+      "avatar": {
+        "type": "defaultavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/e0057225-aff5-470b-acc0-e9cb617190c3"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "stela@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "cf403f05-65e5-469d-afa8-2948a6fb4b32",
+      "name": "Darko Antunović",
+      "login": "darko",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/cf403f05-65e5-469d-afa8-2948a6fb4b32?etag=MjctMjU2Njk%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "darko@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "ffcae4e6-ad62-4744-93a2-cc9558effc71",
+      "name": "Adam Horvat",
+      "login": "adam",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/ffcae4e6-ad62-4744-93a2-cc9558effc71?etag=MjctMTIyMjI%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "adam@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "1d5d2d9d-7cc5-4dc2-a18a-ac8249ec5470",
+      "name": "Igor Ušumović",
+      "login": "igor",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/1d5d2d9d-7cc5-4dc2-a18a-ac8249ec5470?etag=MjctMTQ2MDY%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "igor@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "6ad9ebdd-d728-46ce-996b-7c3a43c53300",
+      "name": "Ivana Oračić",
+      "login": "ivana",
+      "banned": false,
+      "avatar": {
+        "type": "defaultavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/6ad9ebdd-d728-46ce-996b-7c3a43c53300"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "ivana@studioopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "c55b73e8-6c9a-4a9d-a04e-3f6d3c308c88",
+      "name": "Csilla Lódi",
+      "login": "csilla",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/c55b73e8-6c9a-4a9d-a04e-3f6d3c308c88?etag=MjctMjU2Njc%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "csilla@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "06d5fd76-5ed1-4aaa-aec5-6045d93212c6",
+      "name": "Aleksandra Uzelac",
+      "login": "aleksandra",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/06d5fd76-5ed1-4aaa-aec5-6045d93212c6?etag=MjctMzQyMTg%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "aleksandra@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "a3080ec0-f812-42db-b859-a488b76207b5",
+      "name": "Silvia Fazekaš",
+      "login": "silvia",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/a3080ec0-f812-42db-b859-a488b76207b5?etag=MjctNDM3NTE%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "silvia@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "a93d3ff7-a634-4352-aa42-5696de446154",
+      "name": "Vlatko Perčić",
+      "login": "vlatko",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/a93d3ff7-a634-4352-aa42-5696de446154?etag=MjctNDQ2NjA%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "vlatko@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "7833084d-e9d2-4ef8-85dd-cf6effaa22f8",
+      "name": "Akoš Pakai",
+      "login": "akos",
+      "banned": false,
+      "avatar": {
+        "type": "defaultavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/7833084d-e9d2-4ef8-85dd-cf6effaa22f8"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "akos@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "7bbe3393-2a3d-4db2-9a64-133178e816c0",
+      "name": "Philippe Lindeckert",
+      "login": "philippe",
+      "banned": false,
+      "avatar": {
+        "type": "defaultavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/7bbe3393-2a3d-4db2-9a64-133178e816c0"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "philippe@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "676f3f3b-d695-481c-ba74-df6a393f1f56",
+      "name": "Ivan Cerovina",
+      "login": "ivan",
+      "banned": false,
+      "avatar": {
+        "type": "defaultavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/676f3f3b-d695-481c-ba74-df6a393f1f56"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "ivan@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "00a6bcca-1c32-4d97-88e2-fdbb51a28597",
+      "name": "Suzana Milićev",
+      "login": "suzana",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/00a6bcca-1c32-4d97-88e2-fdbb51a28597?etag=MjctNDM3NDk%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "suzana@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "662e6b20-e71d-498e-b003-367085bae4dc",
+      "name": "Nikola Bibić",
+      "login": "nikola",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/662e6b20-e71d-498e-b003-367085bae4dc?etag=MjctNDU1OTc%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "nikola@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "d1699853-baf8-46f3-9ebc-d7c857bcb31a",
+      "name": "Danijel Džakula",
+      "login": "danijel",
+      "banned": false,
+      "avatar": {
+        "type": "gravatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/d1699853-baf8-46f3-9ebc-d7c857bcb31a"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "danijel.dzakula@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "88c2fee8-ce98-405c-aa03-bd4cc09873e8",
+      "name": "Filip Kujundžić",
+      "login": "filip",
+      "banned": false,
+      "avatar": {
+        "type": "urlavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/88c2fee8-ce98-405c-aa03-bd4cc09873e8?etag=MjctNDQ2NjM%3D"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "filip@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "274dce43-690e-4c13-a2b9-45b43403e959",
+      "name": "Danilo Mihaldžić",
+      "login": "danilo",
+      "banned": false,
+      "avatar": {
+        "type": "defaultavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/274dce43-690e-4c13-a2b9-45b43403e959"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "danilo@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "82667c7c-2a2e-4c67-a112-9c76fe330cdd",
+      "name": "Dragan Saulić",
+      "login": "dragan",
+      "banned": false,
+      "avatar": {
+        "type": "defaultavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/82667c7c-2a2e-4c67-a112-9c76fe330cdd"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "dragan@studiopresent.com"
+        }
+      }
+    },
+    {
+      "type": "user",
+      "id": "65d22e0d-3b51-4814-8e19-045f08423be2",
+      "name": "David Zorić",
+      "login": "david.zoric",
+      "banned": false,
+      "avatar": {
+        "type": "defaultavatar",
+        "url": "https://studiopresent.myjetbrains.com/hub/api/rest/avatar/65d22e0d-3b51-4814-8e19-045f08423be2"
+      },
+      "profile": {
+        "email": {
+          "type": "EmailJSON",
+          "email": "david.zoric@studiopresent.com"
+        }
+      }
+    }
+  ],
+  "time_allocation": {
+    "vlatko": {
+      "2024-12-02": 10800,
+      "2024-12-03": 22500,
+      "2024-12-04": 28800,
+      "2024-12-09": 5400,
+      "2024-12-05": 28800,
+      "2024-12-06": 28800
+    }
+  }
+}

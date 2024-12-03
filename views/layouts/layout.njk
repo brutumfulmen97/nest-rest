@@ -4,13 +4,17 @@
     <meta charset="utf-8"/>
     <title>{{ title }}</title>
     <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./custom.css"/>
+    <script src="https://code.highcharts.com/gantt/highcharts-gantt.js"></link>
+    <script src="https://code.highcharts.com/modules/boost.js"></script>
+    <script src="https://code.highcharts.com/gantt/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="./script.js" type="module"></script>
   </head>
   <body class="bg-gray-200 h-screen flex flex-col items-center">
     {% include '../partials/navigation.njk' %}
     <main
-      class="max-w-4xl p-4 flex flex-col gap-4 items-center grow justify-center w-full
-        ">
+      class="p-4 flex flex-col gap-4 items-center grow justify-center w-full ">
       {% block content %}
       {% endblock %}
       </main>
