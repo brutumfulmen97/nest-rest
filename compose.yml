@@ -21,7 +21,7 @@ services:
     depends_on:
       - mongodb
     volumes:
-      - .:/usr/src/app
+      - ./src:/usr/src/app/src
     networks:
       - app-network
     command: pnpm dev
