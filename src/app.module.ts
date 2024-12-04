@@ -10,10 +10,16 @@ import { ScheduleModule } from '@nestjs/schedule';
 import { TasksService } from './tasks/tasks.service';
 import { ConfigModule } from '@nestjs/config';
 import { ProjectsModule } from './projects/projects.module';
+import { DatabaseContextModule } from './database-context/database-context.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://mongodb:27017/nest'),
+    MongooseModule.forRoot('mongodb://mongodb_youtrack:27017/nest', {
+      connectionName: 'youtrack',
+    }),
+    MongooseModule.forRoot('mongodb://mongodb_gitlab:27017/nest', {
+      connectionName: 'gitlab',
+    }),
     UsersModule,
     ProjectsModule,
     MyLoggerModule,
@@ -25,6 +31,7 @@ import { ProjectsModule } from './projects/projects.module';
         limit: 1,
       },
     ]),
+    DatabaseContextModule,
   ],
   controllers: [AppController],
   providers: [

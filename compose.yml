@@ -1,10 +1,19 @@
 services:
-  mongodb:
+  mongodb_youtrack:
     image: mongo:latest
     ports:
       - "27017:27017"
     volumes:
-      - mongodb_data:/data/db
+      - mongodb_youtrack:/data/db
+    networks:
+      - app-network
+
+  mongodb_gitlab:
+    image: mongo:latest
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongodb_gitlab:/data/db
     networks:
       - app-network
 
@@ -16,10 +25,12 @@ services:
       - "3000:3000"
       - "3001:3001"
     environment:
-      - MONGODB_URI=mongodb://mongodb:27017/nest
+      - MONGODB_URI_1=mongodb://mongodb_youtrack:27017/nest
+      - MONGODB_URI_2=mongodb://mongodb_gitlab:27017/nest
     restart: always
     depends_on:
-      - mongodb
+      - mongodb_youtrack
+      - mongodb_gitlab
     volumes:
       - ./:/usr/src/app
       - /usr/src/app/node_modules
@@ -32,4 +43,5 @@ networks:
     driver: bridge
 
 volumes:
-  mongodb_data:
+  mongodb_youtrack:
+  mongodb_gitlab:

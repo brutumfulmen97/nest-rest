@@ -4,6 +4,7 @@ import { MyLoggerService } from 'src/my-logger/my-logger.service';
 import { ProjectsService } from 'src/projects/projects.service';
 import { ConfigService } from '@nestjs/config';
 import { UsersService } from 'src/users/users.service';
+import { DatabaseContextService } from 'src/database-context/database-context.service';
 
 @Injectable()
 export class TasksService {
@@ -12,11 +13,14 @@ export class TasksService {
     private readonly projectService: ProjectsService,
     private readonly userService: UsersService,
     private readonly configService: ConfigService,
+    private readonly databaseContext: DatabaseContextService,
   ) {}
 
-  @Cron(CronExpression.EVERY_DAY_AT_MIDNIGHT)
+  @Cron(CronExpression.EVERY_10_SECONDS)
   async populateUsers() {
     try {
+      this.databaseContext.setDatabase('gitlab');
+
       const gitlabRestApi = this.configService.get('GITLAB_REST_API');
       const endpoint = this.configService.get('ENDPOINT');
 
@@ -59,9 +63,10 @@ export class TasksService {
     }
   }
 
-  @Cron(CronExpression.EVERY_10_MINUTES)
-  async handleCron() {
+  @Cron(CronExpression.EVERY_10_SECONDS)
+  async populateProjects() {
     try {
+      this.databaseContext.setDatabase('gitlab');
       const gitlabRestApi = this.configService.get('GITLAB_REST_API');
       const endpoint = this.configService.get('ENDPOINT');
 
