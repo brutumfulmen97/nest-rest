@@ -1,0 +1,12 @@
+{% extends 'layouts/layout.njk' %}
+{% block content %}
+  <h1 class="text-2xl font-bold">{{ title }}</h1>
+  <div id="youtrack-chart" class="w-full max-w-[80vw]"></div>
+  <script type="module" defer>
+    const data = await fetch('/youtrack/data').then((res) => res.json());
+    console.log(data);
+    const container = document.getElementById('youtrack-chart');
+    container.innerHTML = JSON.stringify(data);
+    // renderGanttChart(data, 'youtrack-chart');
+  </script>
+{% endblock %}

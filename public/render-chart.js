@@ -16,7 +16,7 @@ const memoizedGetRandomColor = (() => {
   };
 })();
 
-export function renderGanttChart(data) {
+export function renderGanttChart(data, id = 'chart') {
   if (data.error) throw new Error(data.message);
 
   const day = 24 * 36e5;
@@ -299,7 +299,7 @@ export function renderGanttChart(data) {
     }
   });
 
-  Highcharts.ganttChart('chart', options);
+  Highcharts.ganttChart(id, options);
 
   let user_series = {
     name: '',

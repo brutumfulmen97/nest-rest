@@ -10,6 +10,7 @@ import { ScheduleModule } from '@nestjs/schedule';
 import { TasksService } from './tasks/tasks.service';
 import { ConfigModule } from '@nestjs/config';
 import { ProjectsModule } from './projects/projects.module';
+import { YoutrackModule } from './youtrack/youtrack.module';
 
 @Module({
   imports: [
@@ -25,6 +26,7 @@ import { ProjectsModule } from './projects/projects.module';
         limit: 1,
       },
     ]),
+    YoutrackModule,
   ],
   controllers: [AppController],
   providers: [

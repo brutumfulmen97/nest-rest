@@ -22,7 +22,7 @@ export class TasksService {
 
       const response = await fetch(`${gitlabRestApi}${endpoint}`, {
         headers: {
-          'PRIVATE-TOKEN': this.configService.get('PRIVATE_TOKEN'),
+          'PRIVATE-TOKEN': this.configService.get('GITLAB_PRIVATE_TOKEN'),
         },
       });
 
@@ -67,7 +67,7 @@ export class TasksService {
 
       const response = await fetch(`${gitlabRestApi}${endpoint}`, {
         headers: {
-          'PRIVATE-TOKEN': this.configService.get('PRIVATE_TOKEN'),
+          'PRIVATE-TOKEN': this.configService.get('GITLAB_PRIVATE_TOKEN'),
         },
       });
 
